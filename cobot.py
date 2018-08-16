@@ -125,4 +125,4 @@ async def ban(ctx, member: discord.Member, *, reason=None):
     else:
         await ctx.send(f'''{ctx.author.mention} you aren't eligible for this''', delete_after=3)
 
-    await bot.run("NDc5NjEyNTYyODk2NDUzNjMy.Dlbxog.xCyAGpII5X3nxiF0sheBSZlNm8k")
+bot.run(os.getenv('TOKEN'))
